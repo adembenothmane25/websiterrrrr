@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #007acc;
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Projects section */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.project {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+
+.project h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Styling iframe */
+iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #007acc;
+    color: #fff;
+    margin-top: 20px;
+}
